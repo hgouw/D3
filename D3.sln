@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hover", "Hover\Hover.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackedBars", "StackedBars\StackedBars.csproj", "{1A53D1F7-6402-46C4-8381-77EA5811033E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Selections", "Selections\Selections.csproj", "{44123696-144E-4581-839D-8F97BE8A6C77}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{1A53D1F7-6402-46C4-8381-77EA5811033E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A53D1F7-6402-46C4-8381-77EA5811033E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A53D1F7-6402-46C4-8381-77EA5811033E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44123696-144E-4581-839D-8F97BE8A6C77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44123696-144E-4581-839D-8F97BE8A6C77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44123696-144E-4581-839D-8F97BE8A6C77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44123696-144E-4581-839D-8F97BE8A6C77}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
