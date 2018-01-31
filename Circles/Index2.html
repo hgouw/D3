@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <meta charset="utf-8" />
+    <title>Circles 2</title>
+</head>
+<body>
+    <svg width="720" height="120"></svg>
+    <script>
+        var svg = d3.select("svg");
+
+        svg.selectAll("circle")
+            .data([32, 57, 112, 293])
+            .enter().append("circle")
+            .attr("cy", 60)
+            .attr("cx", function (d, i) { return i * 100 + 30; })
+            .attr("r", function (d) { return Math.sqrt(d); });
+
+        //svg.selectAll("circle")
+        //    .data([32, 57])
+        //    .exit().remove();
+    </script>
+</body>
+</html>
