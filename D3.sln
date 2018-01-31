@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackedBars", "StackedBars\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Selections", "Selections\Selections.csproj", "{44123696-144E-4581-839D-8F97BE8A6C77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarChart", "BarChart\BarChart.csproj", "{E953DE3D-BBCD-4E5B-8F50-96BFE5905708}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarCharts", "BarCharts\BarCharts.csproj", "{E953DE3D-BBCD-4E5B-8F50-96BFE5905708}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
