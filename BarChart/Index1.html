@@ -40,10 +40,8 @@
             .range([0, 300])
 
         d3.select(".chart")
-            .selectAll("div")
-            .data(data)
-            .enter()
-            .append("div")
+          .selectAll("div").data(data)
+          .enter().append("div")
             .style("width", function (d) { return scale(d) + "px"; })
             .text(function (d) { return d; });
     </script>
