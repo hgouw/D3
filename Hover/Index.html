@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <script src="Scripts/d3/d3.js"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
     <meta charset="utf-8" />
     <title>Hover</title>
 </head>
@@ -18,6 +18,24 @@
     <p class="hover-me">
         Hover here too!
     </p>
-    <script src="Scripts/Script.js"></script>
+
+    <script>
+        var clickMe = document.getElementById('click-me');
+        clickMe.onclick = function () {
+            if (this.style.backgroundColor) {
+                this.style.backgroundColor = '';
+            } else {
+                this.style.backgroundColor = 'red';
+            }
+        };
+
+        d3.selectAll('.hover-me')
+            .on('mouseover', function () {
+                this.style.backgroundColor = 'yellow';
+            })
+            .on('mouseleave', function () {
+                this.style.backgroundColor = '';
+            });
+    </script>
 </body>
 </html>
